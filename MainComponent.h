@@ -6,6 +6,9 @@
 // you could `#include <JuceHeader.h>` here instead, to make all your module headers visible.
 
 #include <JuceHeader.h>
+#include "DJAudioPlayer.h"
+#include "DeckGUI.h"
+#include "PlaylistComponent.h"
 
 
 //==============================================================================
@@ -35,6 +38,15 @@ private:
     AudioFormatManager formatManager;
     AudioThumbnailCache thumbCache{100};
 
+    DJAudioPlayer player1{formatManager};
+    DeckGUI deckGUI1{&player1, formatManager, thumbCache};
+
+    DJAudioPlayer player2{formatManager};
+    DeckGUI deckGUI2{&player2, formatManager, thumbCache};
+
+    MixerAudioSource mixerSource;
+
+    PlaylistComponent playlistComponent;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

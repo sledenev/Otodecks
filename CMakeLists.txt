@@ -62,6 +62,9 @@ target_sources(OttoDesk
         Main.cpp
         MainComponent.cpp
         DJAudioPlayer.cpp
+        WaveformDisplay.cpp
+        DeckGUI.cpp
+        PlaylistComponent.cpp
 )
 
 # `target_compile_definitions` adds some preprocessor definitions to our target. In a Projucer
