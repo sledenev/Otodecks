@@ -2,8 +2,8 @@
 // Created by Sergey Ledenev on 04/02/2024.
 //
 
-#ifndef OTTO_DESK_DECKGUI_H
-#define OTTO_DESK_DECKGUI_H
+#ifndef OTODECKS_DECKGUI_H
+#define OTODECKS_DECKGUI_H
 
 #include <JuceHeader.h>
 #include "DJAudioPlayer.h"
@@ -57,4 +57,4 @@ private:
 
 
 
-#endif //OTTO_DESK_DECKGUI_H
+#endif //OTODECKS_DECKGUI_H

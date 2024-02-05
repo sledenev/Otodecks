@@ -2,8 +2,8 @@
 // Created by Sergey Ledenev on 04/02/2024.
 //
 
-#ifndef OTTO_DESK_DJAUDIOPLAYER_H
-#define OTTO_DESK_DJAUDIOPLAYER_H
+#ifndef OTODECKS_DJAUDIOPLAYER_H
+#define OTODECKS_DJAUDIOPLAYER_H
 
 #include <JuceHeader.h>
 
@@ -40,4 +40,4 @@ private:
 
 
 
-#endif //OTTO_DESK_DJAUDIOPLAYER_H
+#endif //OTODECKS_DJAUDIOPLAYER_H

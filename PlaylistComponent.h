@@ -2,8 +2,8 @@
 // Created by Sergey Ledenev on 04/02/2024.
 //
 
-#ifndef OTTO_DESK_PLAYLISTCOMPONENT_H
-#define OTTO_DESK_PLAYLISTCOMPONENT_H
+#ifndef OTODECKS_PLAYLISTCOMPONENT_H
+#define OTODECKS_PLAYLISTCOMPONENT_H
 
 #include <JuceHeader.h>
 
@@ -48,4 +48,4 @@ private:
 
 
 
-#endif //OTTO_DESK_PLAYLISTCOMPONENT_H
+#endif //OTODECKS_PLAYLISTCOMPONENT_H

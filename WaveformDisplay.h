@@ -2,8 +2,8 @@
 // Created by Sergey Ledenev on 04/02/2024.
 //
 
-#ifndef OTTO_DESK_WAVEFORMDISPLAY_H
-#define OTTO_DESK_WAVEFORMDISPLAY_H
+#ifndef OTODECKS_WAVEFORMDISPLAY_H
+#define OTODECKS_WAVEFORMDISPLAY_H
 
 #include <JuceHeader.h>
 
@@ -35,4 +35,4 @@ private:
 
 
 
-#endif //OTTO_DESK_WAVEFORMDISPLAY_H
+#endif //OTODECKS_WAVEFORMDISPLAY_H
